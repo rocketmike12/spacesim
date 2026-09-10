@@ -1,9 +1,9 @@
 # spacesim
-a dumb little simulation of gravitational forces between objects in space
+A dumb little simulation of gravitational forces between objects in space
 
-# building
-you have to install [raylib](https://github.com/raysan5/raylib) to compile this program <br>
-to compile, run
+# Building
+You have to install [raylib](https://github.com/raysan5/raylib) to compile this program <br>
+To compile, run
 ```
 g++ spacesim.cpp -o spacesim -lraylib
 ```
@@ -12,7 +12,7 @@ or just
 make build
 ```
 
-# planned features
+# Planned features
  - dynamic radius calculation;
  - JSON configuration;
  - screensaver mode;
