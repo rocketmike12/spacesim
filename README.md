@@ -60,6 +60,7 @@ The format used for simulation files (jsonc) is as follows:
     ]
 }
 ```
+You can use demos located in [examples/](https://github.com/rocketmike12/spacesim/tree/main/examples) as reference
 # Planned features
 - dynamic radius calculation;
 - screensaver mode;
