@@ -45,7 +45,7 @@ The format used for simulation files (jsonc) is as follows:
     // softening factor (double)
     "epsilon": 0.1,
 
-    // array of body objects (all double)
+    // array of body objects: x and y position, mass, radius and velocity Vector2D (all double)
     "bodies": [
         {
             "x": 0.0,
