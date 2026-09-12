@@ -15,11 +15,11 @@ make build
 You can run one of the prebundled simulations<br>
 For a pixel-scale simulation demo
 ```shell
-./spacesim examples/3body.jsonc
+./spacesim demos/3body.jsonc
 ```
 For a unit-scale simulation demo
 ```shell
-./spacesim examples/earth_moon.jsonc
+./spacesim demos/earth_moon.jsonc
 ```
 # Creating your own simulations
 The format used for simulation files (jsonc) is as follows:
@@ -60,7 +60,7 @@ The format used for simulation files (jsonc) is as follows:
     ]
 }
 ```
-You can use demos located in [examples/](https://github.com/rocketmike12/spacesim/tree/main/examples) as reference
+You can use demos located in [demos/](https://github.com/rocketmike12/spacesim/tree/main/demos/) as reference
 # Planned features
 - dynamic radius calculation;
 - screensaver mode;
