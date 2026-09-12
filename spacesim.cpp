@@ -144,7 +144,8 @@ int main (int argc, char* argv[]) {
 				}
 
 				ifstream f(argv[i]);
-				if(parse_system(json::parse(f), _system) != 0) return -1;
+				// json::parse(f, callback, allow_exceptions, ignore_comments)
+				if(parse_system(json::parse(f, nullptr, true, true), _system) != 0) return -1;
 
 				continue;
 			}
