@@ -1,9 +1,11 @@
+// three-body simulation
+// arbitrary values picked by hand
 {
 	"mode": "pixel",
 	"width": 1024,
 	"height": 1024,
-	"G": 100,
 	"fps": 60,
+	"G": 100,
 	"epsilon": 700,
 	"bodies": [
 		{ "x": -64, "y": -64, "m": 10000, "R": 2, "v": { "x": 20.0, "y": 20.0 } },

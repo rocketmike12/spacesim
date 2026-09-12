@@ -1,11 +1,13 @@
+// Earth and Moon
+// M0 = kg, T0 = s, L0 = m
 {
 	"mode": "unit",
 	"width": 1024,
 	"height": 1024,
+	"fps": 60,
 	"S": 1.11e-6,
 	"dT": 1440,
 	"G": 6.67430e-11,
-	"fps": 60,
 	"epsilon": 1e8,
 	"bodies": [
 		{ "x": 0, "y": 0, "m": 5.9722e+24, "R": 6371e3, "v": { "x": 0.0, "y": -12.56 } },
